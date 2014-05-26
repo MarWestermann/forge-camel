@@ -39,10 +39,6 @@ import de.intersales.forge.plugin.camel.facets.CamelFacet;
 @Alias("camel")
 public class CamelPlugin implements Plugin {
 
-	
-	
-	@Inject
-	public DependencyInstaller installer;
 
 	@Inject
 	private ShellPrompt prompt;
